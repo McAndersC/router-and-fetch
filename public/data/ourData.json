@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "title": "Billedetekst # 1",
+        "description" : "Billedetekst # 1 - Beskrivelse",
+        "image": "assets/images/product_1.jpg"
+    },
+    {
+        "id": 2,
+        "title": "Billedetekst # 2",
+        "description" : "Billedetekst # 2 - Beskrivelse",
+        "image": "assets/images/product_2.jpg"
+    },
+    {
+        "id": 3,
+        "title": "Billedetekst # 3",
+        "description" : "Billedetekst # 3 - Beskrivelse",
+        "image": "assets/images/product_3.jpg"
+    },
+    {
+        "id": 4,
+        "title": "Billedetekst # 4",
+        "description" : "Billedetekst # 4 - Beskrivelse",
+        "image": "assets/images/product_4.jpg"
+    },
+    {
+        "id": 5,
+        "title": "Billedetekst # 5",
+        "description" : "Billedetekst # 4 - Beskrivelse",
+        "image": "assets/images/product_5.jpg"
+    },
+    {
+        "id": 6,
+        "title": "Billedetekst # 6",
+        "description" : "Billedetekst # 6 - Beskrivelse",
+        "image": "assets/images/product_6.jpg"
+    }
+]
