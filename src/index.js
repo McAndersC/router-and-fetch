@@ -4,11 +4,15 @@ import './css/index.css';
 import App from './js/core/App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from "react-router-dom";
+import config from './js/core/misc/configuaration.js';
+
+
+console.log(config.development)
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename={config.development ? '/' : '/smuknu'}>
       <App />
     </BrowserRouter>
   </React.StrictMode>
