@@ -30,7 +30,7 @@ const ProductPage = () => {
     // Vi benytter useeffect til at hente data. 
     useEffect(() => {
 
-        const file = '/data/ourData.json';
+        const file = './data/ourData.json';
 
         // Vi fetcher/henter vores data.
 
@@ -64,7 +64,11 @@ const ProductPage = () => {
     */
     useEffect(() => {
   
-        let pd = ourData.find((data) => data.id === parseInt(params.id));
+        let pd = ourData.find((data) => data.niceUrl === params.id);
+        console.log('Params', parseInt(params.id), params.id);
+        console.log('ourData', ourData);
+        console.log('ourData', ourData);
+        console.log('useeffect', pd);
         setProductData(pd);
      
     }, [params.id, ourData]);
@@ -76,7 +80,7 @@ const ProductPage = () => {
     
       Åbn nu ProductItem.js
     */
-    return productData ? <ProductItem product={productData}></ProductItem> : 'Produktet Findes Ikke'
+    return productData ? <ProductItem name={'MITNAVN'} product={productData}></ProductItem> : 'Produktet Findes Ikke'
   
   }
 export default ProductPage

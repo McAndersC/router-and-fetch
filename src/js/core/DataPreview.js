@@ -18,7 +18,7 @@ const DataPreview = () => {
     useEffect(() => {
 
         // Vi opretter en reference til vores fil.
-        const file = '/data/ourData.json';
+        const file = './data/ourData.json';
 
         // Vi fetcher/henter vores data.
         fetch(file)

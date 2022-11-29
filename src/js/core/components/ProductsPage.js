@@ -10,7 +10,7 @@ const ProductsPage = () => {
     useEffect(() => {
 
       // Fuldstændig samme procedure som i Preview. Vi henter data og sætter vores state ourData.
-        const file = '/data/ourData.json';
+        const file = './data/testJson.json';
 
         // Vi fetcher/henter vores data.
 

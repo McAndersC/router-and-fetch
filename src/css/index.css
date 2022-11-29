@@ -40,3 +40,28 @@ nav {
   height: 60px;
 
 }
+
+
+.navigation {
+
+
+
+}
+a{
+
+  color:blue;
+
+}
+
+
+.navigation .link-item {
+
+  background-color: red;
+
+}
+
+.navigation .link-item a{
+
+  color: #000;
+
+}

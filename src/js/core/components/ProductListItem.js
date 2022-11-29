@@ -28,7 +28,7 @@ const ProductListItem = ({product}) => { // <-- læg mærke til at vi ved hælp 
         <img src={'/' + product.image} alt="demo" width={'100px'}/>
       </div>
       <div>
-        <Link to={`/products/${product.id}`}>{product.title}</Link> 
+        <Link to={`/products/${product.niceUrl}`}>{product.title}</Link> 
       </div>
 
     </div>

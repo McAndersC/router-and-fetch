@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "title": "Billedetekst # 1111111",
+        "title": "Billedetekst # TEST",
         "niceUrl" : "product-nummer-1",
         "description" : "Billedetekst # 1 - Beskrivelse",
         "image": "assets/images/product_1.jpg"
